@@ -1,0 +1,1271 @@
+/**
+ * Autor: Agência H1 Code
+ * Site: www.h1code.com.br
+ * Data de Criação: 27/08/2018
+ */
+
+
+
+/**
+ * Sessão de importação das fontes
+ */
+
+@font-face {
+	src: url("../fonts/Catamaran-Bold.ttf");
+	font-family: "Catamaran-Bold";
+}
+
+@font-face {
+	src: url("../fonts/Catamaran-Regular.ttf");
+	font-family: "Catamaran-Regular";
+}
+
+@font-face {
+	src: url("../fonts/Catamaran-Black.ttf");
+	font-family: "Catamaran-Black";
+}
+
+@font-face {
+	src: url("../fonts/Catamaran-Light.ttf");
+	font-family: "Catamaran-Light";
+}
+
+@font-face {
+	src: url("../fonts/Catamaran-Medium.ttf");
+	font-family: "Catamaran-Medium";
+}
+
+
+
+/**
+ * Modo Debug (Linhas e Colunas)
+ */
+
+.ver {
+	border: 1px solid red;
+}
+
+
+
+/**
+ * Definições padrões do HTML e Body
+ */
+
+html, body {
+	height: 100%;
+	width: 100%;
+	font-family: "Catamaran-Regular", sans-serif;
+	overflow-x: hidden;
+}
+
+
+
+/**
+ * Configuração dos links
+ */
+
+a {
+	
+}
+
+a:focus, a:hover {
+	text-decoration: none;
+}
+
+
+
+/**
+ * Configuração dos Botões
+ */
+
+.btn-padrao {
+	background-color: #00a4ff;
+	background-image: linear-gradient(-40deg, rgba(46,252,160,0.8) 0%, rgba(0,164,255) 100%);
+	color: white;
+	width: 180px;
+	height: 50px;
+	border: none;
+	font-family: "Catamaran-Bold", sans-serif;
+	font-size: 17px;
+}
+
+
+
+/**
+ * Sessão "Header"
+ */
+
+.header {
+	background-image: url(../img/bg_topo.png);
+	height: 982px;
+	background-size: 100%;
+	background-repeat: no-repeat;
+}
+
+
+
+/**
+ * Sessão "Header 2" - Demais páginas
+ */
+
+.header2 {
+	color: white;
+	background-image: url(../img/bg_topo2.png);
+	height: 652px;
+	background-size: 100%;
+	background-repeat: no-repeat;
+}
+
+
+
+/**
+ * Menu principal
+ */
+
+.menu {
+	z-index: 20;
+	color: white !important;
+	margin-top: 70px;
+	font-family: "Catamaran-Bold", sans-serif;
+	font-size: 15px;
+	float: right;
+	margin-right: 20px;
+	text-transform: uppercase;
+}
+
+.menu a {
+	color: white;
+	padding: 10px;
+}
+
+.menu a:focus, .menu a:hover, .botao-ativo {
+	background-color: #00a4ff;
+	background-image: linear-gradient(-40deg, rgba(46,252,160,0.8) 0%, rgba(0,164,255) 100%);
+	border-radius: 5px;
+	padding: 10px;
+}
+
+.nav-link {
+	margin-left: 15px;
+}
+
+.icone-menu {
+	height: 40px;
+}
+
+.flags-menu {
+	height: 20px;
+}
+
+.central-do-cliente {
+	font-family: "Catamaran-Regular";
+	width: 360px;
+	margin-left: -150px
+}
+
+#central-do-cliente-menu {
+	margin-left: 30px;
+}
+
+#central-do-cliente-menu a:active,
+#central-do-cliente-menu a:focus,
+#central-do-cliente-menu a:hover
+ {
+	background: none !important;
+}
+
+#central-do-cliente:hover, #central-do-cliente:focus {
+	background: none;
+}
+
+#topo-central-do-cliente {
+	height: 90px;
+	padding: 30px;
+	margin-top: -10px;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+	text-transform: none;
+	color: white;
+	font-size: 27px;
+	background-color: #00a4ff;
+	background-image: linear-gradient(-40deg, rgba(46,252,160,0.8) 0%, rgba(0,164,255) 100%);
+}
+
+#topo-central-do-cliente span {
+	font-family: "Catamaran-Bold";
+}
+
+#formulario-central-do-cliente {
+	padding: 30px;
+}
+
+#formulario-central-do-cliente .btn-padrao {
+	border-radius: 5px;
+}
+
+#esqueci-a-senha {
+	font-family: 'Catamaran-Bold';
+	font-size: 14px;
+	color: #cccccc !important;
+}
+.dropdown-item {
+	font-family: "Catamaran-Bold";
+	color: #333333 !important;
+	text-transform: none;
+	padding: .25rem 1.5rem !important;
+}
+
+.dropdown-item:hover {
+	background: none !important;
+	color: #00e2bf !important;
+}
+
+.dropdown-item.active, .dropdown-item:active {
+	background: none !important;
+}
+
+.dropdown-item:focus, .dropdown-item:hover {
+	background: none !important;
+}
+
+.dropdown-submenu {
+  position: relative;
+}
+
+.dropdown-submenu a::after {
+  transform: rotate(-90deg);
+  position: absolute;
+  right: 6px;
+  top: .8em;
+}
+
+.dropdown-submenu .dropdown-menu {
+  top: 0;
+  left: 100%;
+  margin-left: .1rem;
+  margin-right: .1rem;
+}
+
+
+
+/**
+ * Banner rotativo da página Home
+ */
+
+#banner-rotativo {
+	position: absolute;
+	color: white;
+	margin-top: 240px;
+	float: left;
+}
+
+#banner-rotativo .prev-next {
+	margin-top: 145px;
+	float: left;
+	margin-left: 20px;
+}
+
+#banner-rotativo ol {
+	position: relative;
+	margin-top: 230px;
+	margin-left: -370px;
+}
+
+.titulo-home {
+	margin-top: 290px;
+	font-size: 16px;
+	width: 800px !important;
+	position: relative;
+	text-align: left;
+	color: white;
+}
+
+.titulo1-home {
+	margin-left: 20px;
+}
+
+.titulo1-home img {
+	margin-left: 5px;
+	margin-right: 5px;
+	margin-top: -5px;
+}
+
+.titulo2-home {
+	color: white;
+	text-align: left;
+	margin-top: 35px;
+	margin-left: 45px;
+	font-family: "Catamaran-Black", sans-serif;
+	font-size: 75px;
+	line-height: 90px;
+}
+
+.titulo2-home img {
+	position: absolute;
+	margin-left: 750px;
+	margin-top: -20px;
+}
+
+.titulo2-home span {
+	font-family: "Catamaran-Light", sans-serif;
+}
+
+.titulo3-home {
+	text-align: left;
+	font-size: 18px;
+	margin-left: 50px;
+}
+
+.botao-titulo-home {
+	margin-top: 70px;
+	margin-left: 45px;
+}
+
+.botao-titulo-home .btn-titulo-home {
+	float: left;
+	font-size: 18px;
+	width: 226px;
+	height: 66px;
+	border: 3px solid #2efca0;
+	border-radius: 5px !important;
+	background: none;
+	padding: 18px;
+	color: white;
+}
+
+
+
+/**
+ * Banner superior das demais páginas
+ */
+
+#banner-fixo-texto1 {
+	margin-top: 200px;
+}
+
+#banner-fixo-texto1 img {
+	margin-top: -5px;
+	margin-left: 5px;
+	margin-right: 5px;
+}
+
+#banner-fixo-texto2 {
+	margin-top: 40px;
+	font-family: "Catamaran-Bold";
+	font-size: 75px;
+	line-height: 90px;
+}
+
+#banner-fixo-texto2 span {
+	font-family: "Catamaran-Light";
+	font-size: 75px;
+}
+
+
+
+/**
+ * Sessão "Sobre Nós" - Icones informativos
+ */
+
+.sec-sobre-icones {
+	margin-top: 100px;
+}
+
+.sobre-icones-separador {
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+
+.sobre-icones-desc {
+	margin-left: 165px;
+	font-family: "Catamaran-Bold", sans-serif;
+	font-size: 14px;
+	color: #ccc;
+	margin-top: -25px;
+	position: absolute;
+}
+
+.sobre-icones-linha {
+	margin-top: 25px;
+	position: relative;
+	left: 15%;
+}
+
+.sobre-icones-titulo {
+	font-family: "Catamaran-Black", sans-serif;
+	font-size: 30px;
+}
+
+
+
+/**
+ * Sessão "Sobre Nós 2" - Icones das Redes Sociais
+ */
+
+.sec-sobre-icones2 {
+	margin-top: 20px;
+}
+
+.sobre-icones-desc2 {
+	font-family: "Catamaran-Bold", sans-serif;
+	font-size: 14px;
+	color: #ccc;
+	margin-top: -25px;
+	position: absolute;
+}
+
+.sobre-icones-desc2 a {
+	color: #ccc;
+}
+
+.sobre-icones-desc2 a:focus,
+.sobre-icones-desc2 a:hover
+ {
+	color: #00e2bf;
+}
+
+#sobre-icones-fb {
+	margin-left: 44%;
+}
+
+#sobre-icones-inst {
+	margin-left: 42%;
+}
+
+#sobre-icones-whats {
+	margin-left: 43%;
+}
+
+#sobre-icones-twit {
+	margin-left: 48%;
+}
+
+.sobre-icones-linha2 {
+	margin-top: 25px;
+	position: relative;
+	left: 10%;
+}
+
+
+
+/**
+ * Sessão "Sobre Nós" - Imagem e Textos
+ */
+
+.sobre-nos2 {
+	background-color: #f7f7f7;
+	/*height: 900px;*/
+	padding: 60px 0px;
+}
+
+#sobre-nos2-esquerda {
+	margin-left: 50px;
+}
+
+#sobre-nos2-direita {
+	color: #333333;
+}
+
+#sobre-nos2-direita img {
+	margin-left: 15px;
+	margin-right: 15px;
+}
+
+#sobre-nos2-texto1 span {
+	font-size: 14px;
+	color: #bbbbbb;
+	letter-spacing: 5px;
+}
+
+#sobre-nos2-texto2 {
+	font-size: 55px;
+	line-height: 66px;
+}
+
+#sobre-nos2-texto2 span {
+	font-family: "Catamaran-Bold", sans-serif;
+}
+
+#sobre-nos2-texto3 {
+	font-family: "Catamaran-Medium", sans-serif;
+	font-size: 22px;
+	line-height: 30.8px;
+}
+
+#sobre-nos2-texto4 {
+	margin-top: 10px;
+	font-size: 18px;
+	line-height: 25.2px;
+}
+
+#sobre-nos2-texto5 {
+	font-size: 16px;
+	margin-left: -15px;
+}
+
+
+
+/**
+ * Página "Sobre Nós"
+ */
+
+.pag-sobre-nos {
+	background-color: #f7f7f7;
+}
+
+.pag-sobre-nos .col-sm-8 {
+	margin-top: 70px;
+}
+
+.pag-sobre-nos img {
+	padding: 10px;
+	border-radius: 15px;
+}
+
+#pag-sobre-nos-img1 {
+	margin-left: 30%;
+}
+
+#pag-sobre-nos-img2 {
+	margin-left: 24%;
+}
+
+#pag-sobre-nos-img3 {
+	margin-left: 24%;
+	margin-top: -10px;
+}
+
+#pag-sobre-nos-texto1 {
+	margin-top: 30px;
+	font-size: 35px;
+	color: 333333;
+}
+
+#pag-sobre-nos-texto1 span {
+	font-family: "Catamaran-Black";
+}
+
+#pag-sobre-nos-texto1 img {
+	margin-left: -10px;
+}
+
+
+#pag-sobre-nos-texto2 {
+	font-size: 20px;
+	color: #333333;
+}
+
+
+
+/**
+ * Sessão "Pesquisar Domínio"
+ */
+
+.sec-dominio {
+	background-image: url('../img/bg_dominio.png');
+	height: 900px;
+	color: white;
+}
+
+#info-dominio {
+	margin-top: 105px;
+}
+
+#dominio-texto1 img {
+	margin-left: 15px;
+	margin-right: 15px;
+}
+
+#dominio-texto1 span {
+	font-size: 14px;
+	letter-spacing: 5px;
+}
+
+#dominio-texto2 {
+	font-size: 55px;
+	line-height: 66px;
+}
+
+#dominio-texto2 span {
+	font-family: "Catamaran-Bold", sans-serif;
+}
+
+#dominio-formulario .form-control {
+	padding: 20px;
+	width: 1000px;
+	display: inline;
+	height: 60px;
+	background-color: #0072b5;
+	border: none;
+	color: white;
+}
+
+#dominio-formulario .form-control::-webkit-input-placeholder {
+	color: white !important;
+}
+
+#dominio-formulario .form-control:-moz-placeholder { /* Firefox 18- */
+	color: white !important;
+}
+
+#dominio-formulario .form-control::-moz-placeholder {  /* Firefox 19+ */
+	color: white !important;
+}
+
+#dominio-formulario .form-control:-ms-input-placeholder {  
+	color: white !important;
+}
+
+.form-control:focus {
+	outline: 0;
+	box-shadow: none;
+}
+
+#dominio-formulario .btn.focus, .btn:focus {
+	outline: 0;
+	box-shadow: none;
+}
+
+#dominio-formulario .btn-padrao {
+	height: 60px;
+	font-family: "Catamaran-Regular", sans-serif;
+	margin-left: -5px;
+	border-top-left-radius: 0;
+	border-bottom-left-radius: 0;
+	margin-top: -2px;
+}
+
+#dominio-texto3 {
+	text-align: left;
+	margin-left: 30px;
+	margin-top: 60px;
+	font-size: 38px;
+}
+
+#dominio-texto3 span {
+	font-family: "Catamaran-Bold";
+}
+
+.dominio-prev-next {
+	margin-left: 5px;
+}
+
+#dominio-linha {
+	display: block;
+	margin-top: 5px;
+}
+
+.sec-dominio .card {
+	font-family: "Catamaran-Bold";
+	font-size: 18px;
+	color: black;
+}
+
+.sec-dominio .card {
+	margin-top: 35px;
+	margin-left: 33px;
+}
+
+.sec-dominio .card-body {
+	background-color: #f5f5f5;
+}
+
+.sec-dominio .card-body p {
+	font-size: 12px;
+	color: #cccccc;
+}
+
+.sec-dominio .card-title {
+	position: absolute;
+	text-align: left;
+}
+
+.sec-dominio .card-text span {
+	color: #00dfbf;
+}
+
+#grid-produtos .row {
+	flex-wrap: nowrap !important;
+}
+
+
+
+/**
+ * Sessão "Depoimentos"
+ */
+
+.sec-depoimentos {
+	height: 630px;
+}
+
+.sec-depoimentos-cinza {
+	height: 630px;
+	background-color: #f7f7f7;
+}
+
+#depoimentos-texto1 {
+	font-family: "Catamaran-Medium";
+	font-size: 14px;
+	letter-spacing: 5px;
+	color: #ccc;
+	margin-top: 145px;
+}
+
+#depoimentos-texto1 span {
+	margin-left: 5px;
+	margin-right: 5px;
+}
+
+#depoimentos-texto1 img {
+	margin-top: -3px;
+}
+
+#depoimentos-texto2 {
+	font-size: 55px;
+}
+
+#depoimentos-texto2 span {
+	font-family: "Catamaran-Bold";
+}
+
+.carousel-indicators {
+	margin-top: 150px;
+}
+
+.carousel-indicators .active {
+	background-color: #ccc;
+}
+
+.indicadores-verde .active {
+	background-color: #00e2bd;
+}
+
+.carousel-indicators li {
+	bottom: -15px;
+	background-color: rgba(204,204,204,0.2);
+}
+
+#depoimentos p {
+	margin-top: 15px;
+	font-size: 25px;
+	font-style: italic;
+	margin-bottom: 60px;
+}
+
+#depoimentos i {
+	font-size: 55px;
+	color: #ccc;
+}
+
+.depoimentos-nome {
+	font-size: 17px !important;
+	font-family: "Catamaran-Bold";
+	font-style: normal !important;
+}
+
+.depoimentos-funcao {
+	color: #999999;
+	font-size: 14px;
+	font-family: "Catamaran-Light";
+	margin-left: 15px;
+}
+
+.depoimentos-separador {
+	margin-left: 15px;
+	color: #999;
+	font-size: 17px;
+	font-family: "Catamaran-Regular" !important;
+}
+
+
+
+/**
+ * Sessão "Tecnologias Utilizadas"
+ */
+
+.sec-tecnologias {
+	height: 464px;
+	background-color: #f7f7f7;
+}
+
+#tecnologias-texto1 {
+	margin-top: 110px;
+	font-family: "Catamaran-Medium";
+	font-size: 14px;
+	letter-spacing: 5px;
+	color: #ccc;
+}
+
+#tecnologias-texto1 img {
+	margin-top: -3px;
+	margin-left: 5px;
+	margin-right: 5px;
+}
+
+#tecnologias-texto2 {
+	font-size: 55px;
+}
+
+#tecnologias-texto2 span {
+	font-family: "Catamaran-Bold";
+}
+
+.tecnologias-logos img {
+	max-height: 30px;
+	margin-top: 55px;
+}
+
+
+
+/**
+ * Página "Cloud Computing Brasil"
+ */
+
+.cloud-br {
+	text-align: center;
+	height: auto;
+	background-color: #f7f7f7;
+}
+
+#cloud-br-texto1 {
+	margin-top: 100px;
+	letter-spacing: 5px;
+	font-size: 14px;
+}
+
+#cloud-br-texto1 img {
+	margin-top: -3px;
+	margin-right: 5px;
+}
+
+#cloud-br-texto2 {
+	font-family: "Catamaran-Bold";
+	font-size: 55px;
+}
+
+.card-deck {
+	margin-top: 55px;
+}
+
+.cloud-br .card-header {
+	height: 180px;
+	padding: 30px;
+	font-family: "Catamaran-Bold";
+	color: white;
+	background-color: #00a4ff;
+	background-image: linear-gradient(-40deg, rgba(46,252,160,0.8) 0%, rgba(0,164,255) 100%);
+	border-bottom: 2px solid #00e2bd;
+}
+
+.cloud-br .card-header img {
+	background-color: white;
+	border-radius: 100%;
+	padding: 10px;
+	box-shadow: 1px 1px 25px gray;
+	margin-bottom: 20px;
+}
+
+.melhor-oferta {
+	position: absolute;
+    top: -4px;
+    left: -5px;
+    background: none !important;
+	border-radius: 0 !important;
+	padding: 0 !important;
+	box-shadow: none !important;
+	margin-bottom: 0 !important;
+}
+
+ .card-body ul > li > img {
+	margin-top: -3px;
+	height: 35px;
+	margin-bottom: 20px;
+}
+
+.cloud-br .card-body span {
+	font-size: 24px;
+	font-family: "Catamaran-Bold";
+}
+
+.recursos {
+	background-image: url('../img/bg_recursos.png');
+	height: auto;
+	padding: 50px 0px;
+	color: white;
+}
+
+#recursos-texto1 {
+	margin-top: 80px;
+	font-size: 14px;
+	letter-spacing: 5px;
+}
+
+#recursos-texto1 img {
+	margin-top: -3px;
+	margin-right: 5px;
+}
+
+#recursos-texto2 {
+	font-family: "Catamaran-Bold";
+	font-size: 55px;
+}
+
+.linha-verde-recursos {
+	margin-top: -40px;
+}
+
+#margem-cards-recursos {
+	margin-top: 20px;
+}
+
+.recursos .card {
+	height: 90%;
+	color: #21242e;
+}
+
+.recursos .card-body img {
+	max-height: 85px;
+	padding: 15px;
+	float: left;
+}
+
+.recursos .card-title {
+	font-family: "Catamaran-Bold";
+	font-size: 18px;
+	text-align: left;
+	margin-left: 130px;
+}
+
+.recursos .card-text {
+	text-align: left;
+	margin-left: 130px;
+}
+
+.faq {
+	max-height: auto;
+}
+
+#faq-texto1 {
+	margin-top: 110px;
+	text-align: center;
+	letter-spacing: 5px;
+}
+
+#faq-texto1 img {
+	margin-top: -3px;
+	margin-right: 5px;
+}
+
+#faq-texto2 {
+	text-align: center;
+	font-family: "Catamaran-Bold";
+	font-size: 55px;
+}
+
+#faq-texto3 {
+	margin-top: 50px;
+	font-size: 30px;
+}
+
+#faq-texto3 span {
+	font-family: "Catamaran-Bold";
+}
+
+#faq-linha-verde {
+	margin-top: -30px;
+}
+
+.faq .card {
+	border: none;
+	border-radius: 0;
+}
+
+.faq .card-header {
+	background: none;
+	border: none;
+	border-left: 3px solid #cccccc;
+	margin-top: 20px;
+}
+
+.faq .card-header-verde {
+	background: none;
+	border: none;
+	border-left: 3px solid #00e3bb !important;
+	margin-top: 20px;
+	padding: .75rem 1.25rem;
+}
+
+.faq .btn-link {
+	font-family: "Catamaran-Regular";
+	font-size: 20px;
+	color: #333333;
+	text-decoration: none;
+}
+
+.faq .btn-padrao {
+	width: 180px;
+	margin-left: 10px;
+	margin-bottom: 40px;
+}
+
+.faq button > a {
+	font-size: 14px;
+	color: white;
+	margin-bottom: 40px;
+}
+
+
+
+/**
+ * Sessão "Contato" - Página de Contato
+ */
+
+.sec-contato {
+	background-color: #f7f7f7;
+	height: 948px;
+}
+
+#contato-texto1 {
+	font-family: "Catamaran-Medium";
+	font-size: 14px;
+	color: #ccc;
+	letter-spacing: 5px;
+	margin-top: 120px;
+}
+
+#contato-texto1 img {
+	margin-left: 5px;
+	margin-right: 5px;
+	margin-top: -5px;
+}
+
+#contato-texto2 {
+	font-size: 55px;
+}
+
+#contato-texto2 span {
+	font-family: "Catamaran-Bold";
+}
+
+#formulario-contato {
+	margin-top: 30px;
+	background-color: white;
+	padding: 50px;
+}
+
+#formulario-contato input,
+#formulario-contato textarea
+ {
+	background: none;
+	border: none;
+	border-radius: 0;
+	border-bottom: 1px solid #dddddd;
+}
+
+#formulario-contato textarea {
+	margin-top: 20px;
+}
+
+#formulario-contato button {
+	margin-top: 80px;
+	font-size: 14px;
+}
+
+
+
+/**
+ * Rodapé
+ */
+
+.rodape a {
+	color: white;
+}
+
+.rodape {
+	background-image: url('../img/footer.png');
+	background-repeat: no-repeat;
+	height: 1304px;
+	margin-top: -65px;
+	color: white;
+}
+
+#rodape-meio {
+	padding: 80px 0 0px 0;
+}
+
+
+
+/**
+ * Rodapé - Parte da esquerda
+ */
+
+#rodape-esq-texto1 {
+	font-size: 14px;
+	letter-spacing: 5px;
+}
+
+#rodape-esq-texto1 img {
+	margin-top: -3px;
+	margin-left: 5px;
+	margin-right: 5px;
+}
+
+#rodape-esq-texto2 {
+	font-family: "Catamaran-Black";
+	font-size: 55px;
+}
+
+#rodape-esq-texto3 {
+	font-size: 18px;
+	width: 480px;
+	margin-bottom: 30px;
+}
+
+#rodape-esq-texto4 li {
+	margin-top: 15px;
+}
+
+#rodape-esq-texto4 hr {
+	width: auto;
+	background-color: rgba(255,255,255,0.15);
+	margin-left: 0px;
+}
+
+#rodape-endereco {
+	font-family: "Catamaran-Bold";
+	font-size: 20px;
+}
+
+#rodape-telefone {
+	font-family: "Catamaran-Light";
+	font-size: 20px;
+}
+
+#rodape-telefone span {
+	font-family: "Catamaran-Bold";
+}
+
+#rodape-email {
+	font-family: "Catamaran-Bold";
+	font-size: 20px;
+	margin-top: 15px;
+}
+
+#rodape-email a {
+	color: white;
+}
+
+
+
+/**
+ * Rodapé - Parte da direita
+ */
+
+#rodape-dir-texto1 {
+	margin-top: 55px;
+	font-size: 25px;
+}
+
+#rodape-dir-texto1 img {
+	margin-top: 10px;
+	margin-left: 5px;
+}
+
+#rodape-dir .form-control {
+	color: #669fc9;
+	margin-top: 20px;
+	margin-left: 75px;
+	background: none;
+	border-left: none;
+	border-top: none;
+	border-right: none;
+	border-radius: 0;
+	border-bottom-color: #0f7ac4 !important;
+}
+
+#rodape-dir .form-control::-webkit-input-placeholder {
+	color: #669fc9 !important;
+}
+
+#rodape-dir .form-control:-moz-placeholder { /* Firefox 18- */
+	color: #669fc9 !important;
+}
+
+#rodape-dir .form-control::-moz-placeholder {  /* Firefox 19+ */
+	color: #669fc9 !important;
+}
+
+#rodape-dir .form-control:-ms-input-placeholder {  
+	color: #669fc9 !important;
+}
+
+#rodape-dir form>button {
+	width: 280px;
+	height: 60px;
+	margin-top: 10px;
+	margin-left: 145px;
+}
+
+#rodape-dir iframe {
+	margin-left: 100px;
+	margin-top: 60px;
+	width: 775px;
+	height: 490px;
+}
+
+
+
+/**
+ * Rodapé - Parte da captação de leads (formulário)
+ */
+
+#rodape-inscricao {
+	margin-top: 350px;
+}
+
+#rodape-inscricao .form-control {
+	width: 540px;
+	height: 60px;
+	display: inline;
+	border-top-right-radius: 0;
+	border-bottom-right-radius: 0;
+}
+
+#rodape-inscricao .btn-padrao {
+	font-size: 16px;
+	width: 194px;
+	height: 60px;
+	margin-top: -2px;
+	margin-left: -5px;
+	border-top-left-radius: 0;
+	border-bottom-left-radius: 0;
+}
+
+
+
+/**
+ * Rodapé - Parte inferior, com copyright e links
+ */
+
+#rodape-copy {
+	margin-top: 45px;
+	font-size: 16px;
+}
+
+#rodape-copy hr {
+	background-color: rgba(255,255,255,0.3);
+	margin-bottom: 30px;
+}
+
+#rodape-copy-esq span {
+	font-family: "Catamaran-Bold";
+}
+
+#rodape-copy-dir li {
+	margin-left: 15px;
+}
+
+#rodape-copy-dir a {
+	color: white;
+}

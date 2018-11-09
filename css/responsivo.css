@@ -1,0 +1,1144 @@
+/* RESPONSIVIDADE EM "CELULARES" ATÉ 768px */
+
+@media screen and (max-width: 768px) {
+
+	.btn-padrao {
+		width: auto;
+		height: auto;
+	}
+
+	.header {
+		background-size: 180%;
+		background-position: top;
+		height: 320px;
+	}
+
+	.menu {
+		margin-top: 0px;
+		float: none;
+		width: 100% !important;
+	}
+
+	.navbar-brand {
+		display: none !important;
+	}
+
+	.navbar-toggler-icon {
+		font-size: 14px;
+	}
+
+	#central-do-cliente-menu {
+		margin-left: 0;
+	}
+
+	#central-do-cliente-menu img {
+		margin-left: 20px;
+	}
+
+	.central-do-cliente {
+		width: 230px;
+		margin-left: 0;
+	}
+
+	#topo-central-do-cliente {
+		height: 70px;
+		padding: 25px;
+		font-size: 18px;
+		margin-left: -1px;
+	}
+
+	.navbar-collapse {
+		background-color: rgba(0,0,0,0.4);
+		padding: 10px;
+		border-radius: 10px;
+	}
+
+	#banner-rotativo {
+		margin-top: 0px;
+		margin-left: -30px;
+	}
+
+	.titulo1-home {
+		margin-left: 30px;
+		font-size: 8px;
+		width: 200px;
+	}
+
+	.titulo1-home img {
+		display: none;
+	}
+
+	.titulo2-home {
+		font-size: 20px;
+		line-height: 22px;
+		margin-top: 0;
+	}
+
+	.titulo3-home {
+		text-align: left;
+		font-size: 12px;
+		margin-left: 47px;
+	}
+
+	.botao-titulo-home .btn-titulo-home {
+		height: 35px;
+		padding: 7px;
+		width: 80px;
+		font-size: 12px;
+		margin-top: -10px;
+	}
+
+	.botao-titulo-home {
+		margin-top: 0px;
+	}
+
+	#banner-rotativo .prev-next {
+		margin-top: 10px;
+		margin-left: 40px;
+	}
+
+	#banner-rotativo .prev-next img {
+		height: 30px;
+	}
+
+	#banner-rotativo ol {
+		display: none;
+	}
+
+	.sec-sobre-icones {
+		display: none;
+	}
+
+	.sobre-icone-img {
+		height: 50px;
+	}
+
+	.sobre-icones-titulo {
+		font-size: 15px !important;
+	}
+
+	.sobre-nos2 {
+		height: auto;
+		padding: 40px 0 40px 0;
+	}
+
+	.sobre-nos2 img {
+		display: none;
+	}
+
+	#sobre-nos2-texto1 span {
+		font-size: 12px;
+	}
+
+	#sobre-nos2-texto2 {
+		font-size: 25px;
+		line-height: 40px;
+	}
+
+	#sobre-nos2-texto3 {
+		font-size: 14px;
+	}
+
+	#sobre-nos2-texto5 {
+		display: none;
+	}
+
+	#botao-contatenos-home {
+		margin-left: 0 !important;
+	}
+
+	.sobre-icones-desc {
+		margin-left: 43px;
+		margin-top: -20px;
+		font-size: 11px;
+		width: 200px;
+	}
+
+	#dominio-texto1 span {
+		font-size: 9px;
+	}
+
+	#dominio-texto2 {
+		font-size: 18px;
+	}
+
+	#dominio-formulario .form-control {
+		width: 185px;
+	}
+
+	#dominio-formulario .btn-padrao {
+		width: 85px;
+		font-size: 12px;
+	}
+
+	#dominio-texto3 {
+		display: none;
+	}
+
+	#melhores-produtos {
+		display: none;
+	}
+
+	.sec-dominio {
+		height: 400px;
+	}
+
+	.sec-depoimentos {
+		height: auto;
+	}
+
+	#depoimentos-texto1 {
+		font-size: 8px;
+	}
+
+	#depoimentos-texto2 {
+		font-size: 25px;
+	}
+
+	#depoimentos p {
+		font-size: 14px;
+	}
+
+	.sec-tecnologias {
+		height: auto;
+		padding-bottom: 50px;
+	}
+
+	#tecnologias-texto1 {
+		font-size: 10px;
+	}
+
+	#tecnologias-texto2 {
+		font-size: 20px;
+	}
+
+	.tecnologias-logos {
+		margin-bottom: 30px;
+	}
+
+	.tecnologias-logos img {
+		max-height: 25px;
+	}
+
+	.rodape {
+		background-position: center;
+	}
+
+	#rodape-meio {
+		padding: 300px 0px 0px 0px;
+	}
+
+	#rodape-esq-texto2 {
+		font-size: 25px;
+	}
+
+	#rodape-esq-texto3 {
+		display: none;
+	}
+
+	#rodape-esq-texto4 img {
+		margin-left: -30px;
+		height: 40px;
+	}
+
+	#rodape-esq {
+		margin-left: 40px;
+	}
+
+	#rodape-endereco,
+	#rodape-telefone,
+	#rodape-email {
+		font-size: 12px;
+		margin-left: 25px;
+		margin-top: -35px;
+	}
+
+	#rodape-dir {
+		display: none;
+	}
+
+	#rodape-inscricao {
+		margin-top: 240px;
+	}
+
+	#rodape-inscricao .form-control {
+		width: 120px;
+	}
+
+	#rodape-inscricao .btn-padrao {
+		font-size: 10px;
+		width: auto;
+	}
+
+	#rodape-copy {
+		margin-top: 100px;
+		margin-left: 25px;
+	}
+
+	#rodape-copy-dir {
+		margin-left: -20px;
+	}
+
+	.header2 {
+		background-size: 450%;
+		height: 800px;
+	}
+
+	#banner-fixo-texto1 {
+		margin-top: 10px;
+		font-size: 12px;
+	}
+
+	#banner-fixo-texto1 img {
+		display: none;
+	}
+
+	#banner-fixo-texto2, #banner-fixo-texto2 span {
+		font-size: 38px;
+		line-height: 55px;
+	}
+
+	.sec-sobre-icones2 {
+		margin-top: -125px;
+		width: 145%;
+		margin-left: -24%;
+	}
+
+	.icones-sociais-img {
+		height: 40px;
+	}
+
+	.sobre-icones-titulo {
+		font-size: 14px !important;
+	}
+
+	#sobre-icones-fb {
+		margin-left: 49%;
+		margin-top: -3%;
+	}
+
+	#sobre-icones-inst {
+		margin-left: 49%;
+		margin-top: -3%;
+	}
+
+	#sobre-icones-whats {
+		margin-left: 48%;
+		margin-top: -3%;
+	}
+
+	#sobre-icones-twit {
+		margin-left: 51%;
+		margin-top: -3%;
+	}
+
+	.sobre-icones-linha2 {
+		width: 100%;
+	}
+
+	#cloud-br-texto1 {
+		font-size: 12px;
+	}
+
+	#cloud-br-texto1 img {
+		display: none;
+	}
+
+	.cloud-br .card-header {
+		height: 250px;
+	}
+
+	.cloud-br .card-body {
+		font-size: 13px;
+	}
+
+	.cloud-br .card-body span {
+		font-size: 14px;
+	}
+
+	#cloud-br-texto2 {
+		font-size: 20px;
+	}
+
+	.cloud-br button {
+		width: 100%;
+	}
+
+	.recursos .col-sm-6 {
+		flex: 0 0 100%;
+		max-width: 100%;
+	}
+
+	.recursos {
+		height: auto;
+		padding-bottom: 50px;
+	}
+
+	#recursos-texto1 {
+		font-size: 9px;
+	}
+
+	#recursos-texto2 {
+		font-size: 25px;
+	}
+
+	.recursos .card {
+		height: 95%;
+	}
+
+	.recursos .card-title {
+		font-size: 14px;
+	}
+
+	.recursos .card-text {
+		font-size: 12px;
+	}
+
+	.sec-depoimentos-cinza {
+		height: auto;
+		padding-bottom: 50px;
+	}
+
+	.faq .btn-link {
+		font-size: 16px;
+	}
+
+	.faq .card-body {
+		font-size: 14px;
+	}
+
+	#faq-texto1 {
+		font-size: 12px;
+	}
+
+	#faq-texto1 img {
+		display: none;
+	}
+
+	#faq-texto2 {
+		font-size: 20px;
+	}
+
+	#faq-texto3 {
+		font-size: 20px;
+	}
+
+	.sec-contato {
+		height: auto;
+		padding-bottom: 50px;
+	}
+
+	#iframe-mapa {
+		margin-left: 0 !important;
+	}
+
+	#pag-sobre-nos-texto1 {
+		font-size: 25px;
+	}
+
+	#pag-sobre-nos-texto2 {
+		font-size: 14px;
+	}
+
+	#contato-texto2 {
+		font-size: 25px;
+	}
+
+	#formulario-contato {
+		margin-bottom: 50px;
+	}
+
+	.form-inscricao-rodape {
+		margin-top: 105px !important;
+	}
+
+}
+
+
+
+/* RESPONSIVIDADE EM "TABLETS" DE 769px À 992px */
+
+@media (min-width: 768px) and (max-width: 992px) {
+
+	.header {
+		background-size: 200%;
+		background-position: top;
+		height: 920px;
+	}
+
+	.menu {
+		margin-top: 0px;
+		float: none;
+	}
+
+	.navbar-brand {
+		display: none !important;
+	}
+
+	.navbar-collapse {
+		background-color: rgba(0,0,0,0.4);
+		padding: 10px;
+		border-radius: 10px;
+	}
+
+	#banner-rotativo {
+		margin-top: 130px;
+		margin-left: -115px;
+	}
+
+	.titulo1-home {
+		margin-left: 0;
+		font-size: 12px;
+	}
+
+	.titulo2-home {
+		font-size: 60px;
+		line-height: 60px;
+	}
+
+	.botao-titulo-home {
+		margin-top: 0px;
+	}
+
+	#banner-rotativo .prev-next {
+		margin-top: 30px;
+	}
+
+	#banner-rotativo ol {
+		margin-top: 100px;
+		margin-left: -235px;
+	}
+
+	.sec-sobre-icones {
+	}
+
+	.sobre-icone-img {
+		height: 50px;
+	}
+
+	.sobre-icones-titulo {
+		font-size: 15px !important;
+	}
+
+	.sobre-nos2 {
+		height: auto;
+		padding: 40px 0 40px 0;
+	}
+
+	#sobre-nos2-texto1 span {
+		font-size: 12px;
+	}
+
+	#sobre-nos2-texto2 {
+		font-size: 35px;
+		line-height: 40px;
+	}
+
+	#sobre-nos2-texto5 {
+		display: none;
+	}
+
+	#botao-contatenos-home {
+		margin-left: 0 !important;
+	}
+
+	.sobre-icones-desc {
+		margin-left: 43px;
+		margin-top: -20px;
+		font-size: 11px;
+		width: 200px;
+	}
+
+	#dominio-texto2 {
+		font-size: 30px;
+	}
+
+	#dominio-formulario .form-control {
+		width: 260px;
+	}
+
+	#dominio-texto3 {
+		display: none;
+	}
+
+	#melhores-produtos {
+		display: none;
+	}
+
+	.sec-dominio {
+		height: 400px;
+	}
+
+	.sec-depoimentos {
+		height: auto;
+	}
+
+	.row.tecnologias-logos {
+		margin-left: -145px;
+		width: 160%;
+	}
+
+	.tecnologias-logos img {
+		max-height: 25px;
+	}
+
+	.rodape {
+		background-position: center;
+	}
+
+	#rodape-meio {
+		padding: 130px 0 0px 0;
+	}
+
+	#rodape-esq-texto2 {
+		font-size: 22px;
+	}
+
+	#rodape-endereco,
+	#rodape-telefone,
+	#rodape-email {
+		font-size: 14px;
+	}
+
+	#rodape-esq-texto3 {
+		display: none;
+	}
+
+	#rodape-dir-texto1 {
+		margin-left: 110px;
+		width: 120%;
+	}
+
+	#rodape-dir form>button {
+		margin-left: 65px;
+	}
+
+	#rodape-esq-texto4 img {
+		margin-left: -30px;
+	}
+
+	#rodape-esq {
+		margin-left: -45px;
+	}
+
+	#rodape-inscricao .form-control {
+		width: 170px;
+	}
+
+	#rodape-inscricao .btn-padrao {
+		width: auto;
+		font-size: 12px;
+	}
+
+	#rodape-copy {
+		margin-top: 120px;
+	}
+
+	.header2 {
+		background-size: 220%;
+		height: 760px;
+	}
+
+	#banner-fixo-texto1 {
+		margin-top: 75px;
+	}
+
+	#banner-fixo-texto2, #banner-fixo-texto2 span {
+		font-size: 65px;
+	}
+
+	.sec-sobre-icones2 {
+		margin-top: -125px;
+		width: 145%;
+		margin-left: -24%;
+	}
+
+	.icones-sociais-img {
+		height: 40px;
+	}
+
+	.sobre-icones-titulo {
+		font-size: 16px !important;
+	}
+
+	#sobre-icones-fb {
+		margin-left: 49%;
+		margin-top: -8%;
+	}
+
+	#sobre-icones-inst {
+		margin-left: 47%;
+		margin-top: -8%;
+	}
+
+	#sobre-icones-whats {
+		margin-left: 45%;
+		margin-top: -8%;
+	}
+
+	#sobre-icones-twit {
+		margin-left: 52%;
+		margin-top: -8%;
+	}
+
+	.cloud-br .card-header {
+		height: 250px;
+	}
+
+	.cloud-br .card-body {
+		font-size: 13px;
+	}
+
+	.cloud-br .card-body span {
+		font-size: 19px;
+	}
+
+	#cloud-br-texto2 {
+		font-size: 30px;
+	}
+
+	.cloud-br button {
+		width: 100%;
+	}
+
+	.recursos .col-sm-6 {
+		flex: 0 0 100%;
+		max-width: 100%;
+	}
+
+	.recursos {
+		height: auto;
+		padding-bottom: 50px;
+	}
+
+	#recursos-texto2 {
+		font-size: 28px;
+	}
+
+	.recursos .card {
+		height: 95%;
+	}
+
+	.sec-depoimentos-cinza {
+		height: auto;
+		padding-bottom: 50px;
+	}
+
+	#faq-texto1 {
+		font-size: 12px;
+	}
+
+	#faq-texto2 {
+		font-size: 30px;
+	}
+}
+
+
+
+/* RESPONSIVIDADE EM "DESKTOPS" DE 992px À 1200px */
+
+@media (min-width: 992px) and (max-width: 1200px) {
+	
+	.header {
+		background-size: 125%;
+	}
+
+	.menu {
+		margin-top: 0px;
+	}
+
+	#banner-rotativo {
+		margin-top: 130px;
+		margin-left: -50px;
+	}
+
+	.titulo1-home {
+		margin-left: 0;
+	}
+
+	.titulo2-home {
+		font-size: 60px;
+		line-height: 60px;
+	}
+
+	.botao-titulo-home {
+		margin-top: 0px;
+	}
+
+	#banner-rotativo .prev-next {
+		margin-top: 30px;
+	}
+
+	#banner-rotativo ol {
+		margin-top: 100px;
+	}
+
+	.sec-sobre-icones {
+		margin-top: -320px;
+		width: 130%;
+		margin-left: -21%;
+	}
+
+	.sobre-icones-titulo {
+		font-size: 15px !important;
+	}
+
+	.sobre-nos2 {
+		height: auto;
+		padding: 40px 0 40px 0;
+	}
+
+	#sobre-nos2-texto5 {
+		display: none;
+	}
+
+	#botao-contatenos-home {
+		margin-left: 0 !important;
+	}
+
+	.sobre-icones-desc {
+		margin-left: 85px;
+		width: 200px;
+	}
+
+	#dominio-texto2 {
+		font-size: 36px;
+	}
+
+	#dominio-formulario .form-control {
+		width: 400px;
+	}
+
+	#dominio-texto3 {
+		display: none;
+	}
+
+	#melhores-produtos {
+		display: none;
+	}
+
+	.sec-dominio {
+		height: 400px;
+	}
+
+	.tecnologias-logos {
+		display: -webkit-inline-box !important;
+		margin-left: -15%;
+	}
+
+	.rodape {
+		background-position: center;
+	}
+
+	#rodape-meio {
+		padding: 130px 0 0px 0;
+	}
+
+	#rodape-esq-texto2 {
+		font-size: 25px;
+	}
+
+	#rodape-esq-texto3 {
+		display: none;
+	}
+
+	#rodape-endereco,
+	#rodape-telefone,
+	#rodape-email {
+		font-size: 14px;
+	}
+
+	#rodape-dir-texto1 {
+		margin-left: 60px;
+	}
+
+	#rodape-dir form>button {
+		margin-left: 100px;
+	}
+
+	#rodape-esq-texto4 img {
+		margin-left: -20px;
+	}
+
+	#rodape-inscricao {
+		margin-top: 380px;
+	}
+
+	#rodape-inscricao .form-control {
+		width: auto;
+	}
+
+	#rodape-copy {
+		margin-top: 150px;
+	}
+
+	.header2 {
+		background-size: 150%;
+		height: 745px;
+	}
+
+	#banner-fixo-texto1 {
+		margin-top: 140px;
+	}
+
+	.sec-sobre-icones2 {
+		margin-top: -125px;
+		width: 120%;
+		margin-left: -13%;
+	}
+
+	.sobre-icones-titulo {
+		font-size: 14px !important;
+	}
+
+	#sobre-icones-fb {
+		margin-left: 57%;
+	}
+
+	#sobre-icones-inst {
+		margin-left: 55%;
+	}
+
+	#sobre-icones-whats {
+		margin-left: 52%;
+	}
+
+	#sobre-icones-twit {
+		margin-left: 61%;
+	}
+
+	.cloud-br .card-header {
+		height: 210px;
+	}
+
+	.cloud-br .card-body {
+		font-size: 13px;
+	}
+
+	.cloud-br .card-body span {
+		font-size: 20px;
+	}
+
+	#cloud-br-texto2 {
+		font-size: 40px;
+	}
+
+	.cloud-br button {
+		width: 100%;
+	}
+
+	.recursos {
+		height: auto;
+		padding-bottom: 50px;
+	}
+
+	#recursos-texto2 {
+		font-size: 36px;
+	}
+
+	.recursos .card {
+		height: 95%;
+	}
+
+	#faq-texto2 {
+		font-size: 40px;
+	}
+}
+
+
+
+/* RESPONSIVIDADE EM "DESKTOPS" DE 1200px À 1919px */
+
+@media (min-width: 1200px) and (max-width: 1600px) {
+
+	.menu {
+		margin-top: 20px;
+	}
+
+	#banner-rotativo {
+		margin-top: 140px;
+		margin-left: -20px;
+	}
+
+	.botao-titulo-home {
+		margin-top: 0px;
+	}
+
+	#banner-rotativo .prev-next {
+		margin-top: 30px;
+	}
+
+	#banner-rotativo ol {
+		margin-top: 100px;
+	}
+
+	.sec-sobre-icones {
+		margin-top: -200px;
+	}
+
+	.sobre-nos2 {
+		height: auto;
+		padding: 40px 0 40px 0;
+	}
+
+	.sobre-icones-desc {
+		margin-left: 85px;
+		width: 200px;
+	}
+
+	#dominio-formulario .form-control {
+		width: 600px;
+	}
+
+	.sec-dominio .card-title {
+		width: 150px;
+	}
+
+	.sec-dominio .card-body p {
+		width: 150px;
+		margin-left: -20px;
+	}
+
+	#dominio-carrinho img {
+		margin-left: -15px;
+		margin-top: 25px;
+		height: 30px;
+	}
+
+	.rodape {
+		background-position: center;
+	}
+
+	#rodape-meio {
+		padding: 130px 0 0px 0;
+	}
+
+	#rodape-esq-texto3 {
+		display: none;
+	}
+
+	#rodape-dir-texto1 {
+		margin-left: 80px;
+	}
+
+	#rodape-inscricao {
+		margin-top: 350px;
+	}
+
+	#rodape-inscricao .form-control {
+		width: 300px;
+	}
+
+	#rodape-inscricao .btn-padrao {
+		margin-top: 0px;
+	}
+
+	#rodape-copy {
+		margin-top: 150px;
+	}
+
+	#banner-fixo-texto1 {
+		margin-top: 140px;
+	}
+
+	.sec-sobre-icones2 {
+		margin-top: -125px;
+	}
+
+	.sobre-icones-titulo {
+		font-size: 20px;
+	}
+
+	#sobre-icones-fb {
+		margin-left: 50%;
+	}
+
+	#sobre-icones-inst {
+		margin-left: 49%;
+	}
+
+	#sobre-icones-whats {
+		margin-left: 49%;
+	}
+
+	#sobre-icones-twit {
+		margin-left: 54%;
+	}
+
+	#recursos-texto2 {
+		font-size: 45px;
+	}
+
+	.recursos .card {
+		height: 95%;
+	}
+
+}
+
+
+
+@media (min-width: 1601px) and (max-width: 1919px) {
+
+	#banner-rotativo {
+		margin-top: 180px;
+	}
+  
+	#banner-rotativo .prev-next {
+    	margin-top: 110px;
+	}
+
+	#banner-rotativo ol {
+		margin-top: 190px;
+	}
+
+	.sec-sobre-icones {
+		margin-top: 0px;
+	}
+
+	.sobre-icones-desc {
+		margin-left: 52%;
+	}
+
+	#dominio-formulario .form-control {
+		width: 800px;
+	}
+
+	#grid-produtos .row {
+		flex-wrap: nowrap !important;
+	}
+
+	.rodape {
+		background-position: center;
+	}
+
+	#rodape-dir iframe {
+		margin-top: -20px;
+		width: 700px;
+		height: 490px;
+	}
+
+	#rodape-esq-texto2 {
+		font-size: 50px;
+	}
+
+	#rodape-inscricao {
+    	margin-top: 300px;
+	}
+
+	#rodape-inscricao .form-control {
+		width: 400px;
+	}
+
+	#rodape-copy-esq p {
+		font-size: 14px;
+	}
+
+	#rodape-copy-dir a {
+		font-size: 14px;
+	}
+
+	#pag-sobre-nos-img1 {
+		margin-left: 18%;
+	}
+
+}
