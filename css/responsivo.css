@@ -48,7 +48,7 @@
 	}
 
 	.navbar-collapse {
-		background-color: rgba(0,0,0,0.4);
+		background-color: rgba(0, 0, 0, 0.4);
 		padding: 10px;
 		border-radius: 10px;
 	}
@@ -293,7 +293,8 @@
 		display: none;
 	}
 
-	#banner-fixo-texto2, #banner-fixo-texto2 span {
+	#banner-fixo-texto2,
+	#banner-fixo-texto2 span {
 		font-size: 38px;
 		line-height: 55px;
 	}
@@ -476,7 +477,7 @@
 	}
 
 	.navbar-collapse {
-		background-color: rgba(0,0,0,0.4);
+		background-color: rgba(0, 0, 0, 0.4);
 		padding: 10px;
 		border-radius: 10px;
 	}
@@ -507,9 +508,6 @@
 	#banner-rotativo ol {
 		margin-top: 100px;
 		margin-left: -235px;
-	}
-
-	.sec-sobre-icones {
 	}
 
 	.sobre-icone-img {
@@ -643,7 +641,8 @@
 		margin-top: 75px;
 	}
 
-	#banner-fixo-texto2, #banner-fixo-texto2 span {
+	#banner-fixo-texto2,
+	#banner-fixo-texto2 span {
 		font-size: 65px;
 	}
 
@@ -738,7 +737,7 @@
 /* RESPONSIVIDADE EM "DESKTOPS" DE 992px À 1200px */
 
 @media (min-width: 992px) and (max-width: 1200px) {
-	
+
 	.header {
 		background-size: 125%;
 	}
@@ -1082,9 +1081,9 @@
 	#banner-rotativo {
 		margin-top: 180px;
 	}
-  
+
 	#banner-rotativo .prev-next {
-    	margin-top: 110px;
+		margin-top: 110px;
 	}
 
 	#banner-rotativo ol {
@@ -1122,7 +1121,7 @@
 	}
 
 	#rodape-inscricao {
-    	margin-top: 300px;
+		margin-top: 300px;
 	}
 
 	#rodape-inscricao .form-control {

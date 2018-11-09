@@ -2,11 +2,9 @@
 	<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
 		<span class="navbar-toggler-icon"></span>
 	</button>
-
 	<a class="navbar-brand" href="/" style="justify-content: flex-start; background: none;">
 		<img src="img/logotipo.png" alt="Logotipo NextQ" style="height: 50px;">
 	</a>
-
 	<div class="collapse navbar-collapse" id="navbarSupportedContent" style="justify-content: flex-end;">
 		<ul class="navbar-nav">
 			<li class="nav-item active">
@@ -73,7 +71,7 @@
 					<div id="topo-central-do-cliente" class="text-center">
 						<p>
 							<span>Entre</span> na sua conta
-						</p>						
+						</p>
 					</div>
 					<form id="formulario-central-do-cliente" class="formulario-menu" method="post" action="http://central.nextq.com.br/dologin.php">
 						<div class="form-group">
@@ -82,8 +80,7 @@
 						<div class="form-group">
 							<input type="password" name="password" size="20" autocomplete="off" class="form-control" placeholder="Senha">
 						</div>
-						<input class="btn-block btn-padrao" type="submit" value="CONECTE-SE AGORA" formtarget="_blank"  />
-
+						<input class="btn-block btn-padrao" type="submit" value="CONECTE-SE AGORA" formtarget="_blank" />
 						<a id="esqueci-a-senha" class="dropdown-item text-center" href="http://central.nextq.com.br/pwreset.php" target="_blank">Esqueci a minha senha</a>
 					</form>
 				</ul>
